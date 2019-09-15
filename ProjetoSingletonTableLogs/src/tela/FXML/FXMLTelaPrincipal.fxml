@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="acpPrincipal" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tela.controlador.ControladorTelaPrincipal">
+   <children>
+      <Button fx:id="btnCadastroUsuario" layoutX="33.0" layoutY="49.0" mnemonicParsing="false" onAction="#cadastrarUsuario" prefHeight="64.0" prefWidth="127.0" text="Cadastro de Usuário" />
+      <Button fx:id="btnGerenciarSessao" layoutX="173.0" layoutY="49.0" mnemonicParsing="false" onAction="#gerenciarSessao" prefHeight="64.0" prefWidth="127.0" text="Gerência de Sessão" />
+      <Button fx:id="btnSair" layoutX="312.0" layoutY="49.0" mnemonicParsing="false" onAction="#sair" prefHeight="64.0" prefWidth="127.0" text="Sair" />
+   </children>
+</AnchorPane>
